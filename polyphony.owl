@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.org/pluralist-web/polyphony#"
-     xml:base="http://purl.org/pluralist-web/polyphony/polyphony.owl"
+     xml:base="http://purl.org/pluralist-web/polyphony/polyphony"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-    <owl:Ontology rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl">
-        <owl:versionIRI rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl/1.0.0"/>
+    <owl:Ontology rdf:about="http://purl.org/pluralist-web/polyphony/polyphony">
+        <owl:versionIRI rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony/1.0.0"/>
     </owl:Ontology>
     
 
@@ -23,47 +23,47 @@
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#expressedBy -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#expressedBy -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#expressedBy">
-        <rdfs:domain rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
-        <rdfs:range rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#EpistemicAgent"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#expressedBy">
+        <rdfs:domain rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
+        <rdfs:range rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#EpistemicAgent"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#hasBelief -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#hasBelief -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#hasBelief">
-        <rdfs:domain rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#EpistemicAgent"/>
-        <rdfs:range rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#EpistemicData"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#hasBelief">
+        <rdfs:domain rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#EpistemicAgent"/>
+        <rdfs:range rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#EpistemicData"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#isAResponseTo -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#isAResponseTo -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#isAResponseTo">
-        <rdfs:domain rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Response"/>
-        <rdfs:range rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#isAResponseTo">
+        <rdfs:domain rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Response"/>
+        <rdfs:range rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#refersTo -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#refersTo -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#refersTo">
-        <rdfs:domain rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
-        <rdfs:range rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#EpistemicData"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#refersTo">
+        <rdfs:domain rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
+        <rdfs:range rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#EpistemicData"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#responsesAs -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#responsesAs -->
 
-    <owl:ObjectProperty rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#responsesAs">
-        <rdfs:domain rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#EpistemicAgent"/>
-        <rdfs:range rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Response"/>
+    <owl:ObjectProperty rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#responsesAs">
+        <rdfs:domain rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#EpistemicAgent"/>
+        <rdfs:range rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Response"/>
     </owl:ObjectProperty>
     
 
@@ -79,131 +79,131 @@
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#DeepDisagreement -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#DeepDisagreement -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#DeepDisagreement">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
-        <owl:disjointWith rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#PeerDisagreement"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#DeepDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
+        <owl:disjointWith rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#PeerDisagreement"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#DeferringToOthers -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#DeferringToOthers -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#DeferringToOthers">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Response"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#DeferringToOthers">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Response"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#Disagreement -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#EpistemicAgent -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#EpistemicAgent -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#EpistemicAgent"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#EpistemicAgent"/>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#EpistemicData -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#EpistemicData -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#EpistemicData"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#EpistemicData"/>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#FaultlessDisagreement -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#FaultlessDisagreement -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#FaultlessDisagreement">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#FaultlessDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#GenuineDisagreement -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#GenuineDisagreement -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#GenuineDisagreement">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#GenuineDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#MaintainingConfidence -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#MaintainingConfidence -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#MaintainingConfidence">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Response"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#MaintainingConfidence">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Response"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#MerelyApparentDisagreement -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#MerelyApparentDisagreement -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#MerelyApparentDisagreement">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#MerelyApparentDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#MerelyVerbalDisagreement -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#MerelyVerbalDisagreement -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#MerelyVerbalDisagreement">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#MerelyVerbalDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#PeerDisagreement -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#PeerDisagreement -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#PeerDisagreement">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#PeerDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#ReducingConfidence -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#ReducingConfidence -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#ReducingConfidence">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Response"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#ReducingConfidence">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Response"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#RejectingDisagreement -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#RejectingDisagreement -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#RejectingDisagreement">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Response"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#RejectingDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Response"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#Response -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#Response -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#Response"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#Response"/>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#SuspendingJudgment -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#SuspendingJudgment -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#SuspendingJudgment">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Response"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#SuspendingJudgment">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Response"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#... -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#... -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#...">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Response"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#...">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Response"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.org/pluralist-web/polyphony/polyphony.owl#.... -->
+    <!-- http://purl.org/pluralist-web/polyphony/polyphony#.... -->
 
-    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony.owl#....">
-        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony.owl#Disagreement"/>
+    <owl:Class rdf:about="http://purl.org/pluralist-web/polyphony/polyphony#....">
+        <rdfs:subClassOf rdf:resource="http://purl.org/pluralist-web/polyphony/polyphony#Disagreement"/>
     </owl:Class>
 </rdf:RDF>
 
