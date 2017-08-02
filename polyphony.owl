@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/soheil/ontologies/2017/6/untitled-ontology-14#"
+     xml:base="http://www.semanticweb.org/soheil/ontologies/2017/6/untitled-ontology-14"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.org/pluralist-web/polyphony"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#expressedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/epistemic-disagreement#expressedBy">
+        <rdfs:domain rdf:resource="http://purl.org/epistemic-disagreement#Disagreement"/>
+        <rdfs:range rdf:resource="http://purl.org/epistemic-disagreement#EpistemicAgent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#hasBelief -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/epistemic-disagreement#hasBelief">
+        <rdfs:domain rdf:resource="http://purl.org/epistemic-disagreement#EpistemicAgent"/>
+        <rdfs:range rdf:resource="http://purl.org/epistemic-disagreement#EpistemicData"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#isAResponseTo -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/epistemic-disagreement#isAResponseTo">
+        <rdfs:domain rdf:resource="http://purl.org/epistemic-disagreement#Response"/>
+        <rdfs:range rdf:resource="http://purl.org/epistemic-disagreement#Disagreement"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#refersTo -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/epistemic-disagreement#refersTo">
+        <rdfs:domain rdf:resource="http://purl.org/epistemic-disagreement#Disagreement"/>
+        <rdfs:range rdf:resource="http://purl.org/epistemic-disagreement#EpistemicData"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#responsesAs -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/epistemic-disagreement#responsesAs">
+        <rdfs:domain rdf:resource="http://purl.org/epistemic-disagreement#EpistemicAgent"/>
+        <rdfs:range rdf:resource="http://purl.org/epistemic-disagreement#Response"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#DeepDisagreement -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#DeepDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Disagreement"/>
+        <owl:disjointWith rdf:resource="http://purl.org/epistemic-disagreement#PeerDisagreement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#DeferringToOthers -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#DeferringToOthers">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#Disagreement -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#Disagreement"/>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#EpistemicAgent -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#EpistemicAgent"/>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#EpistemicData -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#EpistemicData"/>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#FaultlessDisagreement -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#FaultlessDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Disagreement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#GenuineDisagreement -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#GenuineDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Disagreement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#MaintainingConfidence -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#MaintainingConfidence">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#MerelyApparentDisagreement -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#MerelyApparentDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Disagreement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#MerelyVerbalDisagreement -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#MerelyVerbalDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Disagreement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#PeerDisagreement -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#PeerDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Disagreement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#ReducingConfidence -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#ReducingConfidence">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#RejectingDisagreement -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#RejectingDisagreement">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#Response -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#Response"/>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#SuspendingJudgment -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#SuspendingJudgment">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#... -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#...">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/epistemic-disagreement#.... -->
+
+    <owl:Class rdf:about="http://purl.org/epistemic-disagreement#....">
+        <rdfs:subClassOf rdf:resource="http://purl.org/epistemic-disagreement#Disagreement"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
