@@ -16,7 +16,7 @@ However, it is not always simple to make a clear distinction between genuine dis
 Another important type of disagreement proposed in the literature is faultless disagreement. This type of disagreement occurs in the fields similar to aesthetics, or matters of taste, where no party need to be mistaken [3]. For example, two persons can give different answers if they are asked whether Vienna is the most beautiful city of the world.
 
 # Potential responses to disagreements:
-Although it is normally discussed in epistemology what is (are) the rational response(s) to different types of epis- temic disagreement, here, to acknowledge pluralism in epistemological discussions, without entering the discussion of the most rational response, which is out of the scope of the Semantic Web, we consider the potential responses: (a) Rejecting the existence of the disagreement (b) Maintaining one’s confidence (c) Suspending judgment (d) Reducing one’s confidence (e) Deferring to the other’s conclusion.
+Although it is normally discussed in epistemology what is (are) the rational response(s) to different types of epistemic disagreement, here, to acknowledge pluralism in epistemological discussions, without entering the discussion of the most rational response, which is out of the scope of the Semantic Web, we consider the potential responses: (a) Rejecting the existence of the disagreement (b) Maintaining one’s confidence (c) Suspending judgment (d) Reducing one’s confidence (e) Deferring to the other’s conclusion.
 
 
 References
