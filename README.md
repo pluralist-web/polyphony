@@ -2,7 +2,7 @@
 Polyphony is an ontology for representing epistemic disagreements in Semantic Web to support pluralism.
 
 
-"Epistemic Disagreements"
+--Epistemic Disagreements 
 Epistemic disagreements can be beneficial. For example, epistemic peer disagree- ment in scientific practice has been argued to be valuable if scientists do not straight away defer to their peers’ conclusions, but nevertheless remain open to the peers’ evidence and arguments. Maintaining such disagreements motivates scientists to carefully check their hypotheses, improve their methodologies and provide better convincing evidence and arguments [4].
 Study of epistemic disagreements is a fresh and active field of research [6,8, p.16]. Besides the very fundamental questions regarding existence and importance of disagreements, many epistemologists have tried to answer two main questions:
 (1) What types of disagreement exist? (2) What is the rational response to each type?
