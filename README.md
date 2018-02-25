@@ -19,7 +19,7 @@ Another important type of disagreement proposed in the literature is faultless d
 Although it is normally discussed in epistemology what is (are) the rational response(s) to different types of epistemic disagreement, here, to acknowledge pluralism in epistemological discussions, without entering the discussion of the most rational response, which is out of the scope of the Semantic Web, we consider the potential responses: (a) Rejecting the existence of the disagreement (b) Maintaining one’s confidence (c) Suspending judgment (d) Reducing one’s confidence (e) Deferring to the other’s conclusion.
 
 
-References
+# References
 1. Berners-Lee, T., Hendler, J., Lassila, O., et al.: The semantic web. Scientific American 284(5), 28–37 (2001)
 2. Cherniss, J., Hardy, H.: Isaiah berlin. In: Zalta, E.N. (ed.) The Stanford Encyclope- dia of Philosophy. Stanford University, 2016 edn. (2016)
 3. Cohnitz, D., Marques, T.: Disagreements. Erkenntnis 79(1), 1–10 (2014)
