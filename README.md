@@ -1,5 +1,5 @@
 # Polyphony: An ontology for representing epistemic disagreements
-Polyphony is an ontology for representing epistemic disagreements in Semantic Web to support pluralism.
+Polyphony is an ontology for representing epistemic disagreements in Semantic Web to support pluralism. In the followings some of the main concepts that are used in Polyphony are briefly introduced.
 
 
 # Epistemic Disagreements 
